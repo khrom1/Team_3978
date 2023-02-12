@@ -23,6 +23,22 @@
 
 //(value div  10) value mod  10
 
-int value = 123;
-Console.WriteLine((value % 100) / 10);
-System.Console.WriteLine((value / 10) % 10);
+// AND = &&
+
+int value;
+
+value = 496;
+
+if (value > 99 && value < 1000 )
+{
+    int res;
+    res = res = (value / 10) % 10;
+Console.WriteLine(res);
+}
+
+else
+{
+Console.WriteLine("Error");
+}
+//Console.WriteLine((value % 100) / 10);
+//System.Console.WriteLine((value / 10) % 10);
