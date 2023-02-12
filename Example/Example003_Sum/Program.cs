@@ -1,3 +1,4 @@
-﻿int numberA = 3;
+﻿int numberA = 56;
 int numberB = 5;
-Cosol
+int result = (numberA + numberB);
+Console.WriteLine(result);
