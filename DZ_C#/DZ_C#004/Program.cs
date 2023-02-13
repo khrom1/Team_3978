@@ -19,8 +19,7 @@ public class MyProgram
         }
     }
     
-    // .NET can only read single characters or entire lines from the
-    // console. The following function safely reads a double value.
+
     private static double inputValue()
     {
         double result;
