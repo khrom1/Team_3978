@@ -27,12 +27,12 @@
 
 int value;
 
-value = 496;
+value = 367;
 
 if (value > 99 && value < 1000 )
 {
     int res;
-    res = res = (value / 10) % 10;
+    res = (value / 10) % 10;
 Console.WriteLine(res);
 }
 
