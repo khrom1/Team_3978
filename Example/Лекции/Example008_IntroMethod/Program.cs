@@ -3,7 +3,7 @@ int Max(int arg1,int arg2,int arg3)
 {
     int resault = arg1;
     if(arg2> resault) resault = arg2;
-    if(arg2> resault) resault = arg2;
+    if(arg3> resault) resault = arg3;
     return resault;
 }
 //Конец метода Max
